@@ -80,7 +80,7 @@ body{
     padding: 8px 0;
 
     line-height: 16px;
-    font-family: Roboto;
+    font-family: 'PT Sans Narrow';
     font-size: 16px;
 
     background: transparent;
@@ -122,5 +122,38 @@ body{
 .field.is-focused::after{
     transform: scaleX(1);
 }
+button{
+    background-color:#34495e;
+    border:2px solid #34495e;
+    display:block;
+    width:100%;
+    height:36px;
+    color:#fff;
+    border-radius:2px;
+    cursor:pointer;
+    font-size:16px;
+    margin:5px 0;
+    outline:none;
+}
 
+button:hover{
+    background:none;
+    color:#34495e;
+}
+.field.error::after{
+    background-color: #e74c3c;
+}
+.field.error .field-label{
+    color: #e74c3c;
+}
+.header{
+    display: block;
+    border-bottom: 2px solid #000;
+}
+.header.header-form{
+    margin-bottom:-8px;
+}
 
+p.error{
+    color: #e74c3c;
+}

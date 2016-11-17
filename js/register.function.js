@@ -19,4 +19,77 @@ $(document).ready(function(){
         }
     });
 
+    $('#registerForm').submit(function(){
+
+        var name =$('#name').val();
+        var email =$('#email').val();
+        var password =$('#password').val();
+        var competence =$('#competence').val();
+
+        var result = true;
+
+        if(name == ""){
+            $('#name').parent().addClass('is-focused error');
+            result = false;
+        }
+
+        if(email == ""){
+            $('#email').parent().addClass('is-focused error');
+            result = false;
+        }
+
+        if(password == ""){
+            $('#password').parent().addClass('is-focused error');
+            result = false;
+        }
+
+        if(competence == ""){
+            $('#competence').parent().addClass('is-focused error');
+            result = false;
+        }
+
+        return result;
+    });
+
+
+    $('#name').keyup(function(){
+        if($('name').val()==""){
+            $('#name').parent().addClass('is-focused error');
+        }else {
+            $('#name').parent().removeClass('error');
+        }
+
+    });
+
+    $('#email').keyup(function(){
+        if($('email').val()==""){
+            $('#email').parent().addClass('is-focused error');
+        }else {
+            $('#email').parent().removeClass('error');
+        }
+
+    });
+
+    $('#password').keyup(function(){
+        if($('password').val()==""){
+            $('#password').parent().addClass('is-focused error');
+        }else {
+            $('#password').parent().removeClass('error');
+        }
+
+    });
+
+    $('#competence').keyup(function(){
+        if($('competence').val()==""){
+            $('#competence').parent().addClass('is-focused error');
+        }else {
+            $('#competence').parent().removeClass('error');
+        }
+
+    });
+
+
+
+
+
 });
