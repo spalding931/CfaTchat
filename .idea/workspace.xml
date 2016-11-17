@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2ac10f0-fe39-41b0-b679-78e5b564d8f0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/functions/membres.function.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/signin.function.php" afterPath="$PROJECT_DIR$/functions/signin.function.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/signin.function.js" afterPath="$PROJECT_DIR$/js/signin.function.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/signin.php" afterPath="$PROJECT_DIR$/pages/signin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/membres.php" afterPath="$PROJECT_DIR$/pages/membres.php" />
     </list>
     <ignored path="CfaTchat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,32 +25,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="signin.function.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/signin.function.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+            <state relative-caret-position="528">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.function.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/register.function.js">
+      <file leaf-file-name="membres.function.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/functions/membres.function.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1056">
-              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/register.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="330">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <marker date="1479406334842" expanded="true" signature="87:106" ph="SELECT * FRO... users" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,70 +50,8 @@
       <file leaf-file-name="membres.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/membres.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dbConnect.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/dbConnect.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="topbar.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/body/topbar.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="138" column="13" selection-start-line="138" selection-start-column="13" selection-end-line="138" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signin.function.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/signin.function.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <marker date="1424550248000" expanded="true" signature="180:241" ph="SELECT * FRO... users" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/signin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signin.function.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/signin.function.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+            <state relative-caret-position="198">
+              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -149,10 +77,11 @@
         <option value="$PROJECT_DIR$/body/topbar.php" />
         <option value="$PROJECT_DIR$/functions/signin.function.php" />
         <option value="$PROJECT_DIR$/pages/register.php" />
-        <option value="$PROJECT_DIR$/pages/membres.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/pages/signin.php" />
         <option value="$PROJECT_DIR$/js/signin.function.js" />
+        <option value="$PROJECT_DIR$/pages/membres.php" />
+        <option value="$PROJECT_DIR$/functions/membres.function.php" />
       </list>
     </option>
   </component>
@@ -370,12 +299,12 @@
       <option name="presentableId" value="Default" />
       <updated>1479375842784</updated>
       <workItem from="1479375845312" duration="20876000" />
-      <workItem from="1479405230272" duration="167000" />
+      <workItem from="1479405230272" duration="1106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21043000" />
+    <option name="totallyTimeSpent" value="21982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3840" y="0" width="1920" height="1086" extended-state="4" />
@@ -560,14 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/membres.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/dbConnect.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -612,9 +533,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/signin.function.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
+        <state relative-caret-position="528">
           <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/membres.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/membres.function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <marker date="1479406334842" expanded="true" signature="87:106" ph="SELECT * FRO... users" />
+          </folding>
         </state>
       </provider>
     </entry>
