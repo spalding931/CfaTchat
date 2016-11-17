@@ -1,27 +1,26 @@
 <?php
-if(isLogged() == 1){
-    header("Location:index.php?page=membres");
-}
+    if(isLogged() == 1){
+        header("Location:index.php?page=membres");
+    }
 ?>
-
 
 <h2 class="header">Se connecter</h2>
 
 <?php
 
-if(isset($_POST['submit'])){
-    $email = htmlspecialchars(trim($_POST['email']));
-    $password = sha1(htmlspecialchars(trim($_POST['password'])));
+    if(isset($_POST['submit'])){
+        $email = htmlspecialchars(trim($_POST['email']));
+        $password = sha1(htmlspecialchars(trim($_POST['password'])));
 
-    if(user_exist($email,$password) == 1){
-        $_SESSION['tchat'] = $email;
-        header("Location:index.php?page=membres");
-    }else{
-        $error_user_not_found = "L'adresse email ou le mot de passe est incorrect";
+        if(user_exist($email,$password) == 1){
+            $_SESSION['cfatchat'] = $email;
+            header("Location:index.php?page=membres");
+        }else{
+            $error_user_not_found = "L'adresse email ou le mot de passe est incorrect";
+        }
+
+
     }
-
-
-}
 
 ?>
 

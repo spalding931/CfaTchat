@@ -157,3 +157,7 @@ button:hover{
 p.error{
     color: #e74c3c;
 }
+
+.topbar .menu a.active{
+    background-color: #2c3e50;
+}
