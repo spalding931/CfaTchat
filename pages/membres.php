@@ -4,19 +4,20 @@ if(isLogged() == 0){
 }
 ?>
 
+
     <h2 class="header">Tous les membres</h2>
+
 <?php
 foreach(get_membres() as $membre){
     if($membre->email != $_SESSION['cfatchat']){
         ?>
         <div class="membre">
             <strong><?= $membre->name ?></strong><br/>
-            <span><?= $membre->email ?></span><br/>
+            <span><?= $membre->competence ?></span><br/>
             <a class="select" href="index.php?page=tchat&user=<?= $membre->email ?>"><span class="i-user"></span></a>
         </div>
-
         <?php
     }
-
 }
+
 ?>
