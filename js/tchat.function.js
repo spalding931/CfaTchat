@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    //recupMessage();
+    recupMessage();
 
     $('.field-input').focus(function () {
         $(this).parent().addClass('is-focused has-label');
@@ -27,10 +27,19 @@ $(document).ready(function() {
 
         if(message != ''){
             $.post('ajax/post.php',{message:message},function(){
-                //recupMessage();
+                recupMessage();
                 $('#message').val('');
             });
         }
     });
+
+    function recupMessage(){
+        $.post('ajax/recup.php',function(data){
+            $('.messages-box').html(data);
+
+        });
+    }
+
+    setInterval(recupMessage,1500);
 
 });
