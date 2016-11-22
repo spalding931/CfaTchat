@@ -1,21 +1,5 @@
 <div class="topbar">
-    <?php
-    echo($_SESSION['user']);
-    ?>
-
     <a class="app-name" href="index.php">Tchat</a>
-    <?php
-    foreach(get_membres() as $membre){
-        if($membre->email == $_SESSION['cfatchat']){
-            ?>
-            <div class="">
-                <h1><?= $membre->name ?></h1><br/>
-            </div>
-            <?php
-        }
-    }
-
-    ?>
     <span class="menu">
         <?php
         if(isLogged() == 1){

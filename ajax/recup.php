@@ -15,7 +15,7 @@ foreach($results as $message){
     ?>
     <div class="message <?php echo ($message->sender == $membre) ? 'message-membre' : 'message-user' ?>">
         <?= $message->message ?>
-        zz'''
+        
     </div>
     <br/><br/>
 

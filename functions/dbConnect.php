@@ -1,6 +1,6 @@
 <?php
     session_start();
-    $dbhost ='localhost';
+    $dbhost ='n2_mysql_1.n2_default';
     $dbname = 'cfatchat';
     $dbuser ='root';
     $dbpassword ='root';
