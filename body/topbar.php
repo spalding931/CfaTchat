@@ -1,5 +1,5 @@
 <div class="topbar">
-    <a class="app-name" href="index.php">Tchat</a>
+    <a class="app-name" href="index.php">CFA Tchat</a>
     <span class="menu">
         <?php
         if(isLogged() == 1){

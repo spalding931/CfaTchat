@@ -14,7 +14,7 @@ foreach(get_membres() as $membre){
         <div class="membre">
             <strong><?= $membre->name ?></strong><br/>
             <span><?= $membre->competence ?></span><br/>
-            <a class="select" href="index.php?page=tchat&user=<?= $membre->email ?>"><span class="i-user"></span></a>
+            <a class="select" href="index.php?page=tchat&user=<?= $membre->email ?>"><span class="i-user ">SEND</span></a>
         </div>
         <?php
     }

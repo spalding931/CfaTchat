@@ -17,7 +17,7 @@ foreach($results as $message){
         <?= $message->message ?>
         
     </div>
-    <br/><br/>
+ 
 
     <?php
 }

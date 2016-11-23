@@ -23,7 +23,7 @@ if(in_array($page.'.function.php',$pages_functions)){
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
-        <title>Cfa Tchat</title>
+        <title>CFA Tchat</title>
         <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
     </head>
@@ -31,11 +31,13 @@ if(in_array($page.'.function.php',$pages_functions)){
     <?php
     include 'body/topbar.php';
     ?>
+    <center>
     <div class="container">
         <?php
         include 'pages/' . $page . '.php';
         ?>
     </div>
+    </center>
     <script src = "js/jquery.js"></script>
     <?php
     $pages_js = scandir('js/');
