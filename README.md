@@ -18,25 +18,25 @@ Vous l'aurez compris ce site, a pour but de lier et souder les apprentis esiarqu
 
 ## technologies utilisées :
 
-*PHP
-*JavaScript
-*jQuery
-*Ajax
-*HTML
-*CSS
-*Base de données SQL
-*Docker
+    PHP
+    JavaScript
+    jQuery
+    Ajax
+    HTML
+    CSS
+    Base de données SQL
+    Docker
     
 
 
 ## Fonctionnalités de l'application:
 
-*Créer un compte unique
-*Se connecter
-*Voir la liste des membres
-*Discuter avec un membre
-*Envoyer un gif selon un mot clé à un membre
-
+    Créer un compte unique
+    Se connecter
+    Voir la liste des membres
+    Discuter avec un membre
+    Envoyer un gif selon un mot clé à un membre
+    
     
 ### Compatibilité
 
