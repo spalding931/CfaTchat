@@ -23,11 +23,11 @@ foreach(get_user() as $user){
         <button type="submit" id="send" class="send">
             <span class="i-send">GO</span>
         </button>
-        <div style="margin-bottom:2%; width:20%">
+        <div style="margin-bottom:2%; display: inline-block;float:left">
         <label for="message" class="field-label">Votre gif</label>
         <input id="gifinput" rows="2"  class="field-input"></input>
-        <button type="submit" id="sendgif">
-            <span class="i-send">GIFF</span>
+        <button class="sendGif" type="submit" id="sendgif">
+            <span style="color:white">GIFF</span>
         </button>
         
         </div>
