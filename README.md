@@ -6,7 +6,7 @@ CFA-Chat est une application web permettant de  dialoguer avec les menbres du CF
 
 Chaque menbres renseigne sa competence principal, puis lorsque pour une raison quelconque, vous avez besoin de renseignement sur un sujet, vous pouvez directement contacter une personne le maitrissant.
 
-Ce site a pour but de connecter les menbres du cfa afin de lier les competences de chacun pour une cause globale.
+Ce site a pour but de connecter les membres du cfa afin de lier les competences de chacun pour une cause globale.
 
 Grace à cela, vous savez deja si une personne pourra vous aider dans votre projet et à l'instar, vous pouvez etre une potentiel aide pour tous. 
 
@@ -16,7 +16,7 @@ Vous l'aurez compris ce site, a pour but de lier et souder les apprentis esiarqu
 
 
 
-## technologies utilisées :
+## Technologies utilisées :
 
     PHP
     JavaScript
