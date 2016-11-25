@@ -34,8 +34,8 @@ Vous l'aurez compris ce site, a pour but de lier et souder les apprentis esiarqu
     Créer un compte unique
     Se connecter
     Voir la liste des membres
-    Discuter avec un membre
-    Envoyer un gif selon un mot clé à un membre
+    Discuter avec eux
+    Envoyer un gif selon un mot clé
     
     
 ### Compatibilité
