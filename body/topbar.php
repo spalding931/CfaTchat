@@ -1,5 +1,6 @@
 <div class="topbar">
     <a class="app-name" href="index.php">CFA Tchat</a>
+    <img class="logo" src="media/logo.png">
     <span class="menu">
         <?php
         if(isLogged() == 1){

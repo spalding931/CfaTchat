@@ -17,20 +17,27 @@ foreach(get_user() as $user){
     <div class="bottom">
         <div class="field field-area">
             <label for="message" class="field-label">Votre message</label>
-            <textarea name="message" id="message" rows="2" class="field-input field-textarea"></textarea>
+           
+           <textarea name="message" id="message" rows="2" class="field-inputMessage field-textarea"></textarea>
+        
         </div>
         
         <button type="submit" id="send" class="send">
             <span class="i-send">GO</span>
         </button>
-        <div style="margin-bottom:2%; display: inline-block;float:left">
-        <label for="message" class="field-label">Votre gif</label>
-        <input id="gifinput" rows="2"  class="field-input"></input>
-        <button class="sendGif" type="submit" id="sendgif">
-            <span style="color:white">GIFF</span>
-        </button>
+        
+        <div class="field field-area" style="margin-bottom:2%; display: inline-block;float:left;width:30%!important">
+            <label for="message" class="field-label">Votre gif</label>
+            
+            <textarea id="gifinput" rows="2"  class="field-inputGif field-textarea"></textarea>
         
         </div>
+       
+       <button class="sendGif" type="submit" id="sendgif">
+            <span class="i-gif">GIFF</span>
+        </button>
+        
+        
      
     </div>  
   
