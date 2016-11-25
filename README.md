@@ -1,7 +1,7 @@
 # CfaTchat
 
 
-## Le principe de L'application :
+## Le principe de l'application :
 CFA-Chat est une application web permettant de  dialoguer avec les membres du CFA-ITE afin de pouvoir échanger sur les différentes compétences de chacun.  
 
 Chaque membre renseigne sa compétence principale, puis lorsque pour une raison quelconque, vous avez besoin de renseignement sur un sujet, vous pouvez directement contacter une personne le maîtrisant.  
@@ -29,7 +29,7 @@ Vous l'aurez compris ce site, a pour but de lier et souder les apprentis esiarqu
     
 
 
-## Fonctionnalités de l'application:
+## Les Fonctionnalités:
 
     Créer un compte unique
     Se connecter
