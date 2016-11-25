@@ -1,0 +1,49 @@
+version: '2'
+
+services:
+  
+  mysql:
+    image: 'mysql'
+    environment:    
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=cfatchat
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=root
+    volumes:
+      - './mysql:/etc/mysql/conf.d'
+
+  apache:
+    build: .
+    volumes:
+      - './CfaTchat/:/var/www/html/'
+      - './php.ini:/usr/local/etc/php/php.ini'
+    ports:
+      - '8887:80'
+    links:
+      - mysql
+
+  ssh:
+    build: './alpine-sshd'
+    volumes:
+      - './CfaTchat/:/var/www/html/'
+      - './ssh/sshd_config:/etc/ssh/sshd_config'
+    environment:
+      - AUTH_MECHANISM=simpleAuth
+      - AUTH_USER=nico
+      - AUTH_PASSWORD=aUnePtitebite
+    ports:
+      - '8822:22'
+
+
+  admin:
+    image: 'phpmyadmin/phpmyadmin'
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=root
+      - PMA_HOST=mysql
+#      - PMA_ARBITRARY=1
+    ports:
+      - '8886:80'
+    links:
+      - mysql
